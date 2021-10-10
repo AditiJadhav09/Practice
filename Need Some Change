@@ -12,11 +12,3 @@ class Solution{
         
     }
 };
-
-
-
-Input:
-sizeOfArray = 6
-arr[] = {1, 2, 3, 4, 5}
-index = 5, element = 90
-Output: 1 2 3 4 5 90
