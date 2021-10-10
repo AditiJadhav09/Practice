@@ -1,0 +1,22 @@
+/*Function to swap array elements
+* arr : array input
+* sizeof_array : number of elements in array
+*/
+class Solution{
+  public:
+    void swapElements(int arr[], int n){
+        
+        // Your code here
+        for(int i=0; i<n-2; i++){
+      swap(arr[i], arr[i+2]);}
+        
+    }
+};
+
+
+
+Input:
+sizeOfArray = 6
+arr[] = {1, 2, 3, 4, 5}
+index = 5, element = 90
+Output: 1 2 3 4 5 90
