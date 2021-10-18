@@ -1,0 +1,26 @@
+int reverse(int N)
+{
+    int rev = 0;
+    
+    while(N)
+    {
+        rev = rev * 10 + (N % 10);
+        
+        N /= 10;
+    }
+    
+    return rev;
+}
+
+void reverse_dig(int &a, int &b)
+{
+    a = reverse(a);
+    b = reverse(b);
+}
+
+void swap(int &a, int &b)
+{
+    a = a + b;
+    b = a - b;
+    a = a - b;
+}
